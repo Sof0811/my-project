@@ -1,0 +1,17 @@
+{
+  "name": "postman",
+  "version": "1.0.0",
+  "description": "api-testing-tool",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Logesh",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  }
+}

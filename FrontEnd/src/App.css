@@ -1,0 +1,36 @@
+.header {
+  text-align: center;
+  background-color: #eb4d06d6;
+}
+.dropDownButton {
+  width: 100px;
+  border-radius: 8px;
+  /* padding: 10px; */
+  margin-right: 10px;
+  border-radius: 8px;
+  border-right: none;
+  background-color: white;
+}
+
+.input-group {
+  width: 100% !important;
+}
+
+.send-btn {
+  padding: 6px 25px;
+  margin-left: 10px;
+  border-radius: 8px;
+}
+
+.input-field {
+  border-radius: 20px;
+  width: 85% !important;
+  border-left: none;
+  background-color: white;
+}
+/* .dropdown {
+  background-color: white;
+} */
+.dropdown-toggle {
+  background-color: white;
+}

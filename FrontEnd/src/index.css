@@ -1,0 +1,30 @@
+.heading {
+  text-align: center;
+  background-color: #ff8c00;
+  color: white;
+  padding: 1px;
+}
+.dropDownOption {
+  border-right: none;
+  width: 8%;
+  height: 5%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 5%;
+}
+.input-box {
+  width: 60%;
+  height: 5%;
+  padding: 10px;
+  border-radius: 5px;
+}
+.send-button {
+  width: 8%;
+  padding: 10px;
+  border-radius: 5px;
+  height: 5%;
+  margin: 10px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
