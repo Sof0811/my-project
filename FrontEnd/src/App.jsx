@@ -5,7 +5,7 @@ const App = () => {
   const requestTypeOption = [
     {
       name: "POST",
-      value: 0,
+      value: 0, //this is value
     },
     {
       name: "GET",
