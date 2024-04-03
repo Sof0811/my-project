@@ -1,6 +1,6 @@
 import { useState } from "react";
 import DataTableExample from "./Component/DataTable.jsx";
-
+import axios from "axios";
 const App = () => {
   const requestTypeOption = [
     {
@@ -46,6 +46,26 @@ const App = () => {
   const handleSend = () => {
     console.log("details", details);
     console.log(tableData);
+
+    axios
+      .get("http://localhost:4001/api/request", {
+        params: {
+          method: details.method,
+          url: details.url,
+          data: JSON.stringify(tableData),
+        },
+      })
+      .then(function (response) {
+        // handle success
+        console.log(response);
+      })
+      .catch(function (error) {
+        // handle error
+        console.log(error);
+      })
+      .finally(function () {
+        // always executed
+      });
   };
 
   return (
